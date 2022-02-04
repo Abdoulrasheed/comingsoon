@@ -353,9 +353,11 @@ body {
   margin-right: 206px;
 }
 .counting-row {
-  display: inline-block;
+  width: 70vw;
+  display: flex;
   vertical-align: middle;
   margin-top: -3px;
+  justify-content: space-between;
   position: relative;
 }
 
@@ -385,8 +387,10 @@ body {
   margin-right: 0;
 }
 .countdown-caption {
-  position: relative;
+  left: 0;
   z-index: 12;
+  position: absolute;
+  margin-left: -100px;
 }
 .countdown-caption h2 {
   color: #303030;
@@ -577,7 +581,7 @@ footer {
     -o-clip-path: inset(47.2% 4px 48.2% 93.6%);
   }
   .seconds-holder .round {
-    margin-top: 4px;
+    margin-top: 0px;
   }
   .countdown-row {
     position: relative;
